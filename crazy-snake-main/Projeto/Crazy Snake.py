@@ -37,20 +37,20 @@ intervalo_frames = 100  # Intervalo de frames para atualizar a posição do bloc
 velocidade_objeto_preto = 10  # Velocidade inicial do objeto preto
 
 pygame.mixer.music.set_volume(0.2)
-musicafundo = pygame.mixer.music.load("smw_castle_clear.wav")
+musicafundo = pygame.mixer.music.load("Projeto/smw_castle_clear.wav")
 pygame.mixer.music.play(-1)
-barulhocoli = pygame.mixer.Sound("smw_jump.wav")
+barulhocoli = pygame.mixer.Sound("Projeto/smw_jump.wav")
 
-fundo_jogo_imagem = pygame.image.load('imagens/fundo_jogo.jpg')
-tela_inicial_imagem = pygame.image.load("imagens/tela_inicial_crazy_snake.png")
-fundo_lost_imagem = pygame.image.load("imagens/tela_lost_crazy_snake.png")
-imagem_cabeca = pygame.image.load("imagens/cabeca_cobra.png")
-imagem_cabeca_cima = pygame.image.load("imagens/cabeça_cobra_cima.png")
-imagem_cabeca_baixo = pygame.image.load("imagens/cabeça_cobra_baixo.png")
-imagem_cabeca_esquerda = pygame.image.load("imagens/cabeça_cobra_esquerda.png")
-imagem_cabeca_direita = pygame.image.load("imagens/cabeça_cobra_direita.png")
-imagem_bloco_preto = pygame.image.load("imagens/imagem_bloco_preto.png")
-imagem_maça = pygame.image.load("imagens/imagem_maça.png")
+fundo_jogo_imagem = pygame.image.load('Projeto/imagens/fundo_jogo.jpg')
+tela_inicial_imagem = pygame.image.load("Projeto/imagens/tela_inicial_crazy_snake.png")
+fundo_lost_imagem = pygame.image.load("Projeto/imagens/tela_lost_crazy_snake.png")
+imagem_cabeca = pygame.image.load("Projeto/imagens/cabeca_cobra.png")
+imagem_cabeca_cima = pygame.image.load("Projeto/imagens/cabeça_cobra_cima.png")
+imagem_cabeca_baixo = pygame.image.load("Projeto/imagens/cabeça_cobra_baixo.png")
+imagem_cabeca_esquerda = pygame.image.load("Projeto/imagens/cabeça_cobra_esquerda.png")
+imagem_cabeca_direita = pygame.image.load("Projeto/imagens/cabeça_cobra_direita.png")
+imagem_bloco_preto = pygame.image.load("Projeto/imagens/imagem_bloco_preto.png")
+imagem_maça = pygame.image.load("Projeto/imagens/imagem_maça.png")
 
 #Fim da declaração de variáveis.
 
